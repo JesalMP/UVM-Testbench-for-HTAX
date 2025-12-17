@@ -15,6 +15,8 @@
 //Add the list of test classes here (uncomment only one)
     //+UVM_TESTNAME=base_test         //-> done
 //    +UVM_TESTNAME=simple_random_test   //-> done
+    //+UVM_TESTNAME=multiport_sequential_random_test  //-> done
+//    +UVM_TESTNAME=full_test         //-> new test
 
 //file list containing design and TB files to compiled
     -f file_list.f

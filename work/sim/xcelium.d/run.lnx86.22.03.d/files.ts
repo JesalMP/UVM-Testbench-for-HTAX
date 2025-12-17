@@ -1,0 +1,9 @@
+1764396106 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/design/htax_top.v
+1764396106 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/design/htax_combinatoric_arbiter.v
+1764396106 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/design/htax_outport_arbiter.v
+1764910067 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/design/htax_outport_data_mux.v
+1764396106 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/tb/htax_defines.sv
+1764396106 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/tb/htax_pkg.sv
+1764396107 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/tb/htax_top.sv
+1764396107 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/tb/htax_tx_interface.sv
+1764396107 /home/grads/j/jesalpatel290/lab-10-JesalMP/work/tb/htax_rx_interface.sv

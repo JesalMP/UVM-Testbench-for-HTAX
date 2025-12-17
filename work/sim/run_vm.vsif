@@ -57,5 +57,26 @@ group all_test {
     ------------------------------------------------------------
     -- Add your tests here -------------------------------------
     ------------------------------------------------------------
+    test random_test_test7 {
+      	   run_script: "cd $ENV(PWD) ; xrun -f run_vm.f +UVM_TESTNAME=random_test -define TEST7" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 1;
+      };
+      test full_test_test8 {
+      	   run_script: "cd $ENV(PWD) ; xrun -f run_vm.f +UVM_TESTNAME=full_test -define TEST8" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 1;
+      };
+
+      test contested_parallel_test9 {
+      	   run_script: "cd $ENV(PWD) ; xrun -f run_vm.f +UVM_TESTNAME=contested_parallel_test -define TEST9" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 1;
+      };
+      test stress_test10 {
+      	   run_script: "cd $ENV(PWD) ; xrun -f run_vm.f +UVM_TESTNAME=stress_test -define TEST10" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 1;
+      };
 
 };
